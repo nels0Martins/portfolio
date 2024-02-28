@@ -1,0 +1,87 @@
+@media (max-width: 568px) { 
+    #cabecalho, #principal, #rodape {
+        max-width: 90%;
+        padding: 0;
+    }
+
+    .itens-menu {
+        font-size: 0.9rem;
+    }
+
+    #principal, #rodape {
+        border-radius: 0%;
+    }
+
+    #article-img {
+        max-width: 250px;
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+
+    #apresentacao {
+        margin-top: 8px;
+    }
+
+    #h2-cta {
+        font-size: 2rem;
+    }
+    
+    #contatos {
+        margin-bottom: 20px;
+    }
+
+    #todos-contatos {
+        max-width: 100%;
+        border: none;
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+
+    #todos-contatos p {
+        text-align: left;
+    }
+
+
+    #rodape {
+        font-size: 0.9rem;
+    }
+}
+
+/* */ 
+
+@media (max-width: 575.98px) { 
+    body {
+        background-image: none;
+    }
+
+    #cabecalho {
+        border-radius: 0 0 0 0 !important;
+        justify-content: center;
+    }
+
+    .itens-menu {
+        margin: 5%;
+    }
+
+    #principal, #rodape {
+        border-radius: 0%;
+    }
+
+    #contatos {
+        padding: 0;
+    }
+
+    #todos-contatos {
+        max-width: 100%;
+        border: none;
+        padding: 0;
+    }
+
+    #todos-contatos p {
+        text-align: left;
+    }
+
+    #rodape {
+        border: none;
+    }
+}

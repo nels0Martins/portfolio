@@ -1,0 +1,256 @@
+/* Configurações iniciais */
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte1: 'Poppins', sans-serif; 
+    --fonte2: "Pixelify Sans", sans-serif; 
+    --ruivo: #E66D00; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    width: 15px;           
+  }
+  
+body::-webkit-scrollbar-track {
+    background-color: black;
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: white;  
+    border-radius: 20px;    
+    border: 2px solid black;
+  }
+
+body {
+    font-family: var(--fonte1);
+    background-image: url(../assets/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Cabecalho */
+
+#cabecalho, #principal, #rodape {
+    border-radius: 0 0 10px 10px;
+}
+
+#cabecalho {
+   margin: 20px auto 10px auto;
+   padding: 10px;
+   max-width: 90%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: white;
+   border-bottom: 2px solid black;
+}
+
+#section-logo {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    font-size: 2rem;
+    font-family: var(--fonte2);
+    margin: 5px;
+    color: var(--ruivo);
+    cursor: pointer;
+}
+
+.itens-menu {
+    font-size: 1.1rem;
+    margin: 20px;
+    text-decoration: none !important;
+    color: black;
+}
+
+.itens-menu:hover {
+    font-family: var(--fonte2);
+    color: var(--ruivo);
+}
+
+/* Principal */ 
+
+#principal {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 90%;
+    border-bottom: 2px solid black;
+}
+
+/* Apresentacao */ 
+
+#apresentacao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 0 0px 0;
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+
+#article-cta, #article-img {
+    align-self: center;
+}
+
+#article-cta {
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+#h2-cta {
+    font-size: 2.2rem;
+}
+
+#p-cta {
+    font-size: 1rem;
+}
+
+#button-cta {
+    width: 100px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#button-cta:hover {
+    background-color: var(--ruivo);
+    color: white;
+}
+
+#article-img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 30px;
+}
+
+#pixel-art-img {
+    border-radius: 50%;
+    width: 95%;
+}
+
+/* Projetos */
+
+#projetos {
+    margin: 20px auto;
+    border-bottom: 2px solid black;
+}
+
+.titulos-pixel {
+    text-align: center;
+    font-family: var(--fonte2);
+    margin-bottom: 20px;
+}
+
+#todos-projetos {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.meus-projetos {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.meus-projetos:hover {
+    border: 2px solid var(--ruivo);
+}
+
+.h3-projetos {
+    font-family: var(--fonte2);
+    font-size: 1.2rem;
+}
+
+.imgs-projetos {
+    border-radius: 10px;
+    width: 150px;
+}
+
+.em-breve {
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Contatos e redes */ 
+
+#contatos {
+    padding: 20px;
+}
+
+#todos-contatos {
+    max-width: 100%;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#todos-contatos p {
+    text-align: center;
+}
+
+.desc-contato {
+    font-size: 1.1rem;
+    font-family: var(--fonte2);
+}
+
+.todos-contatos-p {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.links-contato:hover {
+    color: var(--ruivo);
+}
+
+/* Rodape */ 
+
+#rodape {
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 90%;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+#div-p-rodape {
+    padding: 10px;
+}
+
+#p-rodape {
+    margin: 0;
+    text-align: center;
+}
+
+.links-simples {
+    color: black;
+}
+
+.links-simples:hover {
+    color: var(--ruivo);
+    text-decoration: none;
+}
